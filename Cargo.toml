@@ -11,5 +11,7 @@ wgpu = "0.17"
 tokio = { version = "1.31", features = [ "full" ] }
 glam = "0.24"
 tracing = "0.1"
-tracing-subscriber = "0.3"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 bytemuck = { version = "1.12", features = [ "derive" ] }
+rand = "*"
+rayon = "1.7.0"

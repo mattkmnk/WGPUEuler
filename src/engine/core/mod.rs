@@ -1,6 +1,7 @@
-mod app;
-mod input_handler;
+mod engine;
+mod input_types;
 mod window;
 
-pub use app::*;
-pub use input_handler::*;
+pub use engine::*;
+pub use input_types::*;
+pub use window::*;
